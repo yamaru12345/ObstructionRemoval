@@ -1,8 +1,8 @@
 import os
 
 TRAIN_DIR = 'temp_online_ckpt/'
-TRAINING_DATA_PATH = 'imgs'
-TRAINING_SCENE = '00002'
+TRAINING_DATA_PATH = '/content/frames'
+TRAINING_SCENE = '00000'
 GPU_ID = '0'
 IMG_TYPE = 'png'
 OUTPUT_DIR = 'output'
