@@ -17,7 +17,7 @@ config.gpu_options.allow_growth = True
 FLAGS = tf.app.flags.FLAGS
 
 # Define necessary FLAGS
-tf.app.flags.DEFINE_string('train_dir', 'temp_online_ckpt/',
+tf.app.flags.DEFINE_string('train_dir', './',
                            """Directory where to write event logs and checkpoint.""")
 tf.app.flags.DEFINE_integer('max_steps', 1001,
                             """Number of steps to run.""")
