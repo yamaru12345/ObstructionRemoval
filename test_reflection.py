@@ -14,7 +14,7 @@ FLAGS = tf.app.flags.FLAGS
 # Define necessary FLAGS
 tf.app.flags.DEFINE_integer('batch_size', 1,
                             """The number of samples in each batch.""")
-tf.app.flags.DEFINE_string('test_dataset_name', 'imgs/00000',
+tf.app.flags.DEFINE_string('test_dataset_name', '/content/frames/00000',
                            """Where the test sequences are.""")
 tf.app.flags.DEFINE_string('img_type', 'png',
                            """Image types.""")
