@@ -20,7 +20,7 @@ tf.app.flags.DEFINE_string('img_type', 'png',
                            """Image types.""")
 tf.app.flags.DEFINE_float('test_ratio', 1.0,
                           """Rescaling factor for the testing sequence.""")
-tf.app.flags.DEFINE_string('ckpt_path', 'temp_online_ckpt/model.ckpt-1000',
+tf.app.flags.DEFINE_string('ckpt_path', './model.ckpt-1000',
                            """If specified, restore this pretrained model """
                            """before beginning any training.""")
 tf.app.flags.DEFINE_string('output_dir', 'output',
