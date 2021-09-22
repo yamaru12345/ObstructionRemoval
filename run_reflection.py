@@ -1,6 +1,6 @@
 import os
 
-TRAIN_DIR = '.'
+TRAIN_DIR = './'
 TRAINING_DATA_PATH = '/content/frames'
 TRAINING_SCENE = '00000'
 GPU_ID = '0'
